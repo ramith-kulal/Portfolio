@@ -1,6 +1,12 @@
 import { MotionDiv } from '../lib/motion'
 import { SectionContainer } from './SectionContainer'
-import { FaLinkedin, FaInstagram, FaEnvelope, FaCode, FaTwitter } from 'react-icons/fa'
+import {
+  FaLinkedin,
+  FaInstagram,
+  FaEnvelope,
+  FaCode,
+  FaTwitter
+} from 'react-icons/fa'
 
 export const Contact = () => {
   return (
@@ -13,7 +19,8 @@ export const Contact = () => {
         className="flex flex-col items-center gap-6"
       >
         <p className="max-w-2xl text-center text-lg">
-          Feel free to connect with me on LinkedIn, X (Twitter), Instagram, or check out my LeetCode profile.
+          Feel free to connect with me on LinkedIn, X (Twitter), Instagram, or
+          check out my LeetCode profile.
         </p>
         <MotionDiv
           initial={{ opacity: 0, x: 40 }}
@@ -23,19 +30,35 @@ export const Contact = () => {
           className="flex gap-6 text-4xl"
         >
           {/* LinkedIn */}
-          <a href="https://www.linkedin.com/in/ramith-kulal/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.linkedin.com/in/ramith-kulal/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaLinkedin className="hover:text-blue-600" />
           </a>
           {/* X (Twitter) */}
-          <a href="https://x.com/ramith_kulal" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://x.com/ramith_kulal"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaTwitter className="hover:text-blue-400" />
           </a>
           {/* Instagram */}
-          <a href="https://www.instagram.com/ramith_kulal/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.instagram.com/ramith_kulal/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaInstagram className="hover:text-pink-500" />
           </a>
           {/* LeetCode */}
-          <a href="https://leetcode.com/u/ramith_kulal/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://leetcode.com/u/ramith_kulal/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaCode className="hover:text-yellow-500" />
           </a>
         </MotionDiv>

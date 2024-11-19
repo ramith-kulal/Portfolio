@@ -26,7 +26,7 @@ export const EmailBtn = () => {
       onClick={handleCopyEmail}
     >
       <Mail className="sm:hidden" />{' '}
-      <span className="ml-4 border-l pl-4 sm:m-0 sm:border-0 sm:p-0 text-blue-300">
+      <span className="ml-4 border-l pl-4 text-blue-300 sm:m-0 sm:border-0 sm:p-0">
         {email}
       </span>
       {copied && (

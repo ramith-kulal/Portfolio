@@ -19,17 +19,34 @@ export const About = () => {
           <p>
             Hello, my name is{' '}
             <span className="font-bold text-target">Ramith Kulal</span>. I’m a
-            passionate <span className="font-bold text-target">Full Stack Developer</span> with a knack for solving problems using
-            modern web technologies. My experience spans across tools like{' '}
-            <span className="font-bold text-target">React, Next.js, Tailwind CSS, Node.js, and MongoDB</span>. I enjoy creating dynamic, user-friendly web applications and have a strong interest in open-source contributions.
+            passionate{' '}
+            <span className="font-bold text-target">Full Stack Developer</span>{' '}
+            with a knack for solving problems using modern web technologies. My
+            experience spans across tools like{' '}
+            <span className="font-bold text-target">
+              React, Next.js, Tailwind CSS, Node.js, and MongoDB
+            </span>
+            . I enjoy creating dynamic, user-friendly web applications and have
+            a strong interest in open-source contributions.
           </p>
           <p>
             Some of my notable projects include a{' '}
-            <span className="font-bold text-target">QR Code generator (BLINQR)</span>, a{' '}
-            <span className="font-bold text-target">real-time chat app using Socket.io</span>. I have also participated in events like JWOC and won the KIMO's-Edge competition. I’m continuously expanding my skill set and love exploring new technologies like Web3.
+            <span className="font-bold text-target">
+              QR Code generator (BLINQR)
+            </span>
+            , a{' '}
+            <span className="font-bold text-target">
+              real-time chat app using Socket.io
+            </span>
+            . I have also participated in events like JWOC and won the
+            KIMO's-Edge competition. I’m continuously expanding my skill set and
+            love exploring new technologies like Web3.
           </p>
           <p>
-            I’m currently focused on enhancing my knowledge in both front-end and back-end development while working on personal projects and open-source contributions. If you’re interested in collaborating or have any opportunities, feel free to reach out!
+            I’m currently focused on enhancing my knowledge in both front-end
+            and back-end development while working on personal projects and
+            open-source contributions. If you’re interested in collaborating or
+            have any opportunities, feel free to reach out!
           </p>
           <MotionDiv className="flex justify-start md:justify-center">
             <Link

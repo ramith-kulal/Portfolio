@@ -25,7 +25,7 @@ export const projectsData: projectType[] = [
       'A real-time random chat application using Socket.IO for instant messaging between users. Built with React and Node.js (Express), featuring dynamic user pairing based on interests and responsive design with Tailwind CSS. Deployed on Render and Vercel for seamless hosting.',
     Skills: ['MERN', 'SocketIO', 'Tailwindcss']
   },
-  
+
   {
     name: 'SudoSolve',
     repo: 'https://github.com/ramith-kulal/SudoSolve',
@@ -33,7 +33,7 @@ export const projectsData: projectType[] = [
     image: '/sudosolve.png', // Replace with the actual image path
     description:
       'A responsive Sudoku Solver web application built using Next.js, TypeScript, React, and Tailwind CSS. The app allows users to input Sudoku puzzles, validate them, and solve them using a backtracking algorithm. The project is deployed on Vercel',
-    Skills: ['react', 'nextjs', 'suduko','typescript']
+    Skills: ['react', 'nextjs', 'suduko', 'typescript']
   },
   {
     name: 'Blinqr',
@@ -52,13 +52,10 @@ export const projectsData: projectType[] = [
     description:
       'Ciphersafe is a secure, local password manager built with React, Vite, and Tailwind CSS. Manage your passwords directly in your browser with ease and privacy.',
     Skills: ['react', 'tailwindcss']
-  },
-  
-  
+  }
 ]
 
 export const skillsData = [
-  
   {
     img: 'cplusplus/cplusplus-original.svg',
     name: 'C++'
@@ -95,7 +92,7 @@ export const skillsData = [
     img: 'nextjs/nextjs-original.svg',
     name: 'Next.js'
   },
-  
+
   {
     img: 'bootstrap/bootstrap-original.svg',
     name: 'Bootstrap'
@@ -135,6 +132,5 @@ export const skillsData = [
   {
     img: 'python/python-original.svg',
     name: 'Python'
-  },
+  }
 ]
-

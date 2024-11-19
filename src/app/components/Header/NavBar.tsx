@@ -36,23 +36,20 @@ export const NavBar = () => {
               >
                 {link.label}
               </Link>
-              
             </li>
           )
         })}
-         <li>
+        <li>
           <a
             href="https://drive.google.com/file/d/1SBOamUDyvSrPdoO0oBuIfAHAaV2o5xpf/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-2  text-blue-500 font-semibold hover:text-white transition"
+            className="px-6 py-2  font-semibold text-blue-500 transition hover:text-white"
           >
             View Resume
           </a>
         </li>
       </ul>
-      
-      
     </nav>
   )
 }

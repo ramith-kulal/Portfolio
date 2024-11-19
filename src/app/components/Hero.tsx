@@ -42,7 +42,6 @@ export const Hero = () => {
             className="mt-4 flex gap-4"
           >
             <EmailBtn />
-           
           </MotionDiv>
         </div>
       </MotionDiv>
