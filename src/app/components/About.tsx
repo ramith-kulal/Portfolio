@@ -18,40 +18,41 @@ export const About = () => {
         >
           <p>
             Hello, my name is{' '}
-            <span className="font-bold text-target">Ramith Kulal</span>. I’m a
-            passionate{' '}
+            <span className="font-bold text-target">Ramith Kulal</span>.
+            I&apos;m a creative{' '}
             <span className="font-bold text-target">Full Stack Developer</span>{' '}
-            with a knack for solving problems using modern web technologies. My
-            experience spans across tools like{' '}
+            who loves turning complex problems into sleek, modern web solutions.
+            My expertise includes technologies like{' '}
             <span className="font-bold text-target">
               React, Next.js, Tailwind CSS, Node.js, and MongoDB
             </span>
-            . I enjoy creating dynamic, user-friendly web applications and have
-            a strong interest in open-source contributions.
+            , and I have a deep passion for crafting engaging, user-friendly
+            applications.
           </p>
           <p>
-            Some of my notable projects include a{' '}
-            <span className="font-bold text-target">
-              QR Code generator (BLINQR)
-            </span>
-            , a{' '}
+            Some of my standout projects include{' '}
+            <span className="font-bold text-target">Bidxpert</span>, a dynamic
+            auction platform for real-time bidding, and a{' '}
             <span className="font-bold text-target">
               real-time chat app using Socket.io
             </span>
-            . I have also participated in events like JWOC and won the
-            KIMO's-Edge competition. I’m continuously expanding my skill set and
-            love exploring new technologies like Web3.
+            . I&apos;ve also actively contributed to the open-source community
+            through events like JWOC and clinched the title at the
+            KIMO&apos;s-Edge competition. Exploring the latest tech trends, from
+            TypeScript to Web3, keeps me inspired.
           </p>
           <p>
-            I’m currently focused on enhancing my knowledge in both front-end
-            and back-end development while working on personal projects and
-            open-source contributions. If you’re interested in collaborating or
-            have any opportunities, feel free to reach out!
+            Currently, I&apos;m diving deeper into both front-end and back-end
+            technologies while building innovative personal projects and
+            contributing to open source. If youre interested in collaborating or
+            have an opportunity, let&apos;s connect—unless you&apos;re here to
+            convince me that tabs are better than spaces!
           </p>
+
           <MotionDiv className="flex justify-start md:justify-center">
             <Link
               href="#contact"
-              className="flex items-center gap-x-2 text-target transition-all hover:gap-x-3 hover:text-[#3385ff]"
+              className="flex items-center gap-x-2 text-target transition-all hover:gap-x-3 hover:text-[#3352da]"
             >
               Contact me <MoveRight />
             </Link>

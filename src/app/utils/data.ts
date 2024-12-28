@@ -17,6 +17,15 @@ export type projectType = {
 
 export const projectsData: projectType[] = [
   {
+    name: 'Bidxpert',
+    repo: 'https://github.com/ramith-kulal/Bidxpert',
+    url: 'https://bidxpert.vercel.app/',
+    image: '/bidxpert.png', // Replace with the actual image path
+    description:
+      'A responsive auction platform built using Next.js, TypeScript, Prisma, and Tailwind CSS. Bidxpert allows users to list and bid on items with secure authentication via JWT and bcrypt. The app ensures seamless user interactions and database management using Prisma. Deployed on Vercel.',
+    Skills: ['nextjs', 'typescript', 'prisma', 'tailwindcss', 'jwt', 'bcrypt']
+  },
+  {
     name: 'Linkle',
     repo: 'https://github.com/ramith-kulal/Linkle',
     url: 'linkle-one.vercel.app',
@@ -35,15 +44,7 @@ export const projectsData: projectType[] = [
       'A responsive Sudoku Solver web application built using Next.js, TypeScript, React, and Tailwind CSS. The app allows users to input Sudoku puzzles, validate them, and solve them using a backtracking algorithm. The project is deployed on Vercel',
     Skills: ['react', 'nextjs', 'suduko', 'typescript']
   },
-  {
-    name: 'Blinqr',
-    repo: 'https://github.com/ramith-kulal/BLINQR',
-    url: 'blinqr.vercel.app/',
-    image: '/blinqr.png', // Yoblinqr actual image path
-    description:
-      'BLINQR is a versatile QR code scanner and generator web application developed using React and Bootstrap. This user-friendly tool serves the dual purpose of scanning QR codes to extract links and generating customized QR codes based on user preferences.',
-    Skills: ['React', 'JavaScript', 'Bootstap']
-  },
+
   {
     name: 'Ciphersafe',
     repo: 'https://github.com/ramith-kulal/Ciphersafe',

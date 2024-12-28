@@ -41,10 +41,10 @@ export const NavBar = () => {
         })}
         <li>
           <a
-            href="https://drive.google.com/file/d/1SBOamUDyvSrPdoO0oBuIfAHAaV2o5xpf/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1uZMx5lcEea1uVkKg0iD47pGBOAVyoo-c/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-2  font-semibold text-blue-500 transition hover:text-white"
+            className="px-6 py-2  font-semibold text-red-500 transition hover:text-white"
           >
             View Resume
           </a>

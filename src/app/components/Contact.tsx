@@ -1,12 +1,7 @@
+import { FaLinkedin, FaInstagram, FaCode, FaTwitter } from 'react-icons/fa'
+
 import { MotionDiv } from '../lib/motion'
 import { SectionContainer } from './SectionContainer'
-import {
-  FaLinkedin,
-  FaInstagram,
-  FaEnvelope,
-  FaCode,
-  FaTwitter
-} from 'react-icons/fa'
 
 export const Contact = () => {
   return (
