@@ -38,8 +38,8 @@ export const projectsData: projectType[] = [
   {
     name: 'SudoSolve',
     repo: 'https://github.com/ramith-kulal/SudoSolve',
-    url: 'sudosolve-six.vercel.app/',
-    image: 'https://sudosolve.png', // Replace with the actual image path
+    url: 'https:/sudosolve-six.vercel.app/',
+    image: '/sudosolve.png', // Replace with the actual image path
     description:
       'A responsive Sudoku Solver web application built using Next.js, TypeScript, React, and Tailwind CSS. The app allows users to input Sudoku puzzles, validate them, and solve them using a backtracking algorithm. The project is deployed on Vercel',
     Skills: ['react', 'nextjs', 'suduko', 'typescript']
