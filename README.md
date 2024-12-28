@@ -11,4 +11,4 @@ Welcome to my personal portfolio website! This website showcases my skills, proj
 ## Technologies Used
 
 - **Frontend**: Next.js, React, Tailwind CSS
-- **Deployment**: Vercel
+- **Deployment**: Vercel 
