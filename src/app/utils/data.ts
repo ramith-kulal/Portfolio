@@ -28,7 +28,7 @@ export const projectsData: projectType[] = [
   {
     name: 'Linkle',
     repo: 'https://github.com/ramith-kulal/Linkle',
-    url: 'linkle-one.vercel.app',
+    url: 'https://linkle-one.vercel.app',
     image: '/linkle.png',
     description:
       'A real-time random chat application using Socket.IO for instant messaging between users. Built with React and Node.js (Express), featuring dynamic user pairing based on interests and responsive design with Tailwind CSS. Deployed on Render and Vercel for seamless hosting.',
@@ -39,7 +39,7 @@ export const projectsData: projectType[] = [
     name: 'SudoSolve',
     repo: 'https://github.com/ramith-kulal/SudoSolve',
     url: 'sudosolve-six.vercel.app/',
-    image: '/sudosolve.png', // Replace with the actual image path
+    image: 'https://sudosolve.png', // Replace with the actual image path
     description:
       'A responsive Sudoku Solver web application built using Next.js, TypeScript, React, and Tailwind CSS. The app allows users to input Sudoku puzzles, validate them, and solve them using a backtracking algorithm. The project is deployed on Vercel',
     Skills: ['react', 'nextjs', 'suduko', 'typescript']
@@ -48,7 +48,7 @@ export const projectsData: projectType[] = [
   {
     name: 'Ciphersafe',
     repo: 'https://github.com/ramith-kulal/Ciphersafe',
-    url: 'ciphersafe-mu.vercel.app',
+    url: 'https://ciphersafe-mu.vercel.app',
     image: '/ciphervault.png', // Replace with the actual image path
     description:
       'Ciphersafe is a secure, local password manager built with React, Vite, and Tailwind CSS. Manage your passwords directly in your browser with ease and privacy.',
