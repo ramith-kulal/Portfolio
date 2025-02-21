@@ -17,7 +17,6 @@ export type projectType = {
 
 export const projectsData: projectType[] = [
   {
-      {
     name: 'Stride',
     repo: 'https://github.com/ramith-kulal/Stride',
     url: 'https://stride-cyan.vercel.app/',
@@ -30,9 +29,9 @@ export const projectsData: projectType[] = [
     name: 'Bidxpert',
     repo: 'https://github.com/ramith-kulal/Bidxpert',
     url: 'https://bidxpert.vercel.app/',
-    image: '/bidxpert.png', // Replace with the actual image path
+    image: '/bidxpert.png',
     description:
-      'A responsive auction platform built using Next.js, TypeScript, Prisma, and Tailwind CSS. Bidxpert allows users to list and bid on items with secure authentication via JWT and bcrypt. The app ensures seamless user interactions and database management using Prisma. Deployed on Vercel.',
+      'A responsive auction platform built using Next.js, TypeScript, Prisma, and Tailwind CSS. Bidxpert allows users to list and bid on items with secure authentication via JWT and bcrypt.',
     Skills: ['nextjs', 'typescript', 'prisma', 'tailwindcss', 'jwt', 'bcrypt']
   },
   {
@@ -41,22 +40,20 @@ export const projectsData: projectType[] = [
     url: 'https://linkle-one.vercel.app',
     image: '/linkle.png',
     description:
-      'A real-time random chat application using Socket.IO for instant messaging between users. Built with React and Node.js (Express), featuring dynamic user pairing based on interests and responsive design with Tailwind CSS. Deployed on Render and Vercel for seamless hosting.',
+      'A real-time random chat application using Socket.IO for instant messaging between users. Built with React and Node.js (Express), featuring dynamic user pairing based on interests.',
     Skills: ['MERN', 'SocketIO', 'Tailwindcss']
   },
-
   {
     name: 'SudoSolve',
     repo: 'https://github.com/ramith-kulal/SudoSolve',
     url: 'https://sudosolve-six.vercel.app/',
-    image: '/sudosolve.png', // Replace with the actual image path
+    image: '/sudosolve.png',
     description:
-      'A responsive Sudoku Solver web application built using Next.js, TypeScript, React, and Tailwind CSS. The app allows users to input Sudoku puzzles, validate them, and solve them using a backtracking algorithm. The project is deployed on Vercel',
-    Skills: ['react', 'nextjs', 'suduko', 'typescript']
-  },
+      'A responsive Sudoku Solver web application built using Next.js, TypeScript, React, and Tailwind CSS. The app allows users to input Sudoku puzzles, validate them, and solve them.',
+    Skills: ['react', 'nextjs', 'sudoku', 'typescript']
   }
-
 ]
+
 
 export const skillsData = [
   {
