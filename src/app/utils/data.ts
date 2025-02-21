@@ -23,7 +23,7 @@ export const projectsData: projectType[] = [
     image: '/stride.png', // Replace with the actual image path
     description:
       'Stride is a personal task management app built with Next.js, TypeScript, and Tailwind CSS. Organize tasks, track progress, and manage projects efficiently with a sleek and responsive UI.',
-    Skills: ["nextjs", "typescript", "tailwindcss", "zustand", "drizzle-orm", "react-query"]
+    Skills: ['nextjs', 'typescript', 'tailwindcss', 'zustand', 'drizzle-orm', 'react-query']
   },
   {
     name: 'Bidxpert',
