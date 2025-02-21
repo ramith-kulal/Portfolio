@@ -54,7 +54,7 @@ export const projectsData: projectType[] = [
       'A responsive Sudoku Solver web application built using Next.js, TypeScript, React, and Tailwind CSS. The app allows users to input Sudoku puzzles, validate them, and solve them using a backtracking algorithm. The project is deployed on Vercel',
     Skills: ['react', 'nextjs', 'suduko', 'typescript']
   },
-
+  }
 
 ]
 
