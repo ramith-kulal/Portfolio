@@ -17,6 +17,15 @@ export type projectType = {
 
 export const projectsData: projectType[] = [
   {
+      {
+    name: 'Stride',
+    repo: 'https://github.com/ramith-kulal/Stride',
+    url: 'https://stride-cyan.vercel.app/',
+    image: '/', // Replace with the actual image path
+    description:
+      'Stride is a personal task management app built with Next.js, TypeScript, and Tailwind CSS. Organize tasks, track progress, and manage projects efficiently with a sleek and responsive UI.',
+    Skills: ["nextjs", "typescript", "tailwindcss", "zustand", "drizzle-orm", "react-query"]
+  },
     name: 'Bidxpert',
     repo: 'https://github.com/ramith-kulal/Bidxpert',
     url: 'https://bidxpert.vercel.app/',
@@ -45,15 +54,7 @@ export const projectsData: projectType[] = [
     Skills: ['react', 'nextjs', 'suduko', 'typescript']
   },
 
-  {
-    name: 'Ciphersafe',
-    repo: 'https://github.com/ramith-kulal/Ciphersafe',
-    url: 'https://ciphersafe-mu.vercel.app',
-    image: '/ciphervault.png', // Replace with the actual image path
-    description:
-      'Ciphersafe is a secure, local password manager built with React, Vite, and Tailwind CSS. Manage your passwords directly in your browser with ease and privacy.',
-    Skills: ['react', 'tailwindcss']
-  }
+
 ]
 
 export const skillsData = [
