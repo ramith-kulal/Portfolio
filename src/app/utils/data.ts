@@ -26,6 +26,7 @@ export const projectsData: projectType[] = [
       'Stride is a personal task management app built with Next.js, TypeScript, and Tailwind CSS. Organize tasks, track progress, and manage projects efficiently with a sleek and responsive UI.',
     Skills: ["nextjs", "typescript", "tailwindcss", "zustand", "drizzle-orm", "react-query"]
   },
+  {
     name: 'Bidxpert',
     repo: 'https://github.com/ramith-kulal/Bidxpert',
     url: 'https://bidxpert.vercel.app/',
