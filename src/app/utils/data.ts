@@ -21,7 +21,7 @@ export const projectsData: projectType[] = [
     name: 'Stride',
     repo: 'https://github.com/ramith-kulal/Stride',
     url: 'https://stride-cyan.vercel.app/',
-    image: '/', // Replace with the actual image path
+    image: '/stride.png', // Replace with the actual image path
     description:
       'Stride is a personal task management app built with Next.js, TypeScript, and Tailwind CSS. Organize tasks, track progress, and manage projects efficiently with a sleek and responsive UI.',
     Skills: ["nextjs", "typescript", "tailwindcss", "zustand", "drizzle-orm", "react-query"]
